@@ -9,7 +9,7 @@ y=temp;
 //function partition to find the position and arrange the array
 int  partition(int arr[],int low,int high,int pivot){
     int pi=low;
-    for(int i=low;i<high;i++){
+    for(int i=low;i<=high;i++){
         if(arr[i]<=pivot){
             swap(arr[i],arr[pi]);
             pi=pi+1;
